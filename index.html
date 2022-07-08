@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Dio</title>
+</head>
+<body>
+    <script>
+
+        var n1 = window.prompt("Insira o primeiro número")
+        var n2 = window.prompt("Insira o segundo número")
+        var soma = n1 + n2
+        var igualdade = n1===n2
+
+
+        function numeros () {
+    if (igualdade) {
+        var resultado = document.write("Os números são iguais, ")
+        return resultado;
+    } else {
+        document.write ("Os números não são iguais, ")
+    }
+
+    if (soma > 10) {
+        document.write("a soma é maior que 10, ")
+    } else {
+        document.write("a soma é menor que 10, ")
+    }
+
+    if (soma > 20) {
+        document.write("e maior que 20.")
+    } else {
+        document.write("e menor que 20.")
+    }
+}
+
+
+numeros();
+
+
+    </script>
+</body>
+</html>
+
+
+
+
